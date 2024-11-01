@@ -1,0 +1,22 @@
+{
+  "name": "projeto-integrador",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "cov": "vitest run --coverage",
+    "format:check": "prettier src --check --verbose",
+    "format": "prettier src --write",
+    "preversion": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@vitest/coverage-v8": "^2.1.2",
+    "prettier": "^3.3.3",
+    "vitest": "^2.1.2"
+  }
+}
