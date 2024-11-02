@@ -1,0 +1,21 @@
+# Ignorar todas as pastas node_modules em subdiretórios
+**/node_modules/
+
+# Ignorar todos os arquivos package.json em subdiretórios
+**/package.json
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de build e cache
+dist/
+build/
+.cache/
+
+# Ignorar arquivos específicos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
