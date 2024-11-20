@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "phputil/router",
+            "version": "v0.3.3",
+            "version_normalized": "0.3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thiagodp/router.git",
+                "reference": "ef02959bc6f71a03db5bf9f8e02d02a40b88f8b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thiagodp/router/zipball/ef02959bc6f71a03db5bf9f8e02d02a40b88f8b0",
+                "reference": "ef02959bc6f71a03db5bf9f8e02d02a40b88f8b0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "kahlan/kahlan": "^5.2",
+                "phpstan/phpstan": "^1.9"
+            },
+            "time": "2024-11-09T21:23:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "phputil\\router\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ExpressJS-like router for PHP",
+            "support": {
+                "issues": "https://github.com/thiagodp/router/issues",
+                "source": "https://github.com/thiagodp/router/tree/v0.3.3"
+            },
+            "install-path": "../phputil/router"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
