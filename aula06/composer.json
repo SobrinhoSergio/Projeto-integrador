@@ -1,0 +1,33 @@
+{
+    "name": "thiag/api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "": [
+                "src/",
+                "src/estado",
+                "src/infra",
+                "src/pais"
+            ]
+        },
+        "files": [
+            "src/infra/conexao.php"
+        ]
+    },
+    "scripts": {
+        "dump": "composer dump-autoload",
+        "test": "kahlan"
+    },
+    "authors": [
+        {
+            "name": "Thiago Delgado Pinto",
+            "email": "thiago_dp@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "phputil/router": "^0.3.3"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    }
+}
